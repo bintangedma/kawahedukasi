@@ -1,0 +1,4 @@
+SELECT * FROM kawahedukasi ORDER BY gaji DESC LIMIT 1; 
+SELECT * FROM  kawahedukasi WHERE kelas == 'BACKEND' ORDER BY gaji DESC, nilai DESC LIMIT 1;
+SELECT COUNT(kelas) FROM kawahedukasi WHERE kelas = 'FRONTEND';
+SELECT * FROM kawahedukasi WHERE kelas == 'FRONTEND' ORDER BY jumlah_kehadiran DESC, nilai DESC LIMIT 1;
